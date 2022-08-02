@@ -1,5 +1,5 @@
 Install-module -Name Az.connectedMachine
-connect-azaccount -Subscription XXXX
+connect-azaccount -SubscriptionID "X-X-X-X-X"
 do
 {
 Write-Host "Welcome in Integration Server in Azure "
