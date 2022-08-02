@@ -12,14 +12,14 @@ switch ($choice)
 {
  1 {
 
-Write-Host "-- Need To enter your Resource Groupe/ Name of Server and Location--"
+Write-Host "-- Need To enter your RG/ Name of Server and Location--"
 $ResourceGroup = read-host "Please enter your ResourceGroup:"
 $NameServer = read-host "Please enter your ServerName:"
 $Location = read-host "Please enter your Location:"
 
 Connect-AzConnectedMachine -ResourceGroupName $ResourceGroup -Name $NameServer -Location $Location
 
-Write-Host "Query complete.  See dsquery.txt saved to Desktop."
+Write-Host "Finish"
     }
 
  2 {
